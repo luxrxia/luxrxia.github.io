@@ -65,51 +65,61 @@ var config_data = `
       }
     },
     "auton": {
-      "Taxi": {
-        "code":"at",
-        "title": "Taxied?",
+      "Preload": {
+        "code":"pl",
+        "title": "Preload?",
+        "type":"bool"
+      },
+      "Tarmac": {
+        "code":"lt",
+        "title": "Left Tarmac??",
         "type":"bool"
       },
       "Upper Cargo Scored": {
-        "code":"au",
+        "code":"ucs",
         "title": "Uppoer Cargo Scored",
         "type":"counter"
       },
       "Lower Cargo Scored": {
-        "code":"al",
+        "code":"lcs",
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
-      "Auto Aquired Cargo": {
-        "code":"ac",
-        "title": "Picked up more cargo?",
+      "Human Player Shooting": {
+        "code":"hps",
+        "title": "Human Player Shooting?",
         "type":"bool"
       }
     },
     "teleop": {
-      "Upper Cargo Scored": {
-        "code":"tu",
-        "title": "Uppoer Cargo Scored",
+      "Cargo Gathered ": {
+        "code":"cg",
+        "title": "Cargo Gathered",
+        "type":"counter"
+      },
+      "Lower Cargo Attempts": {
+        "code":"lca",
+        "title": "Lower Cargo Attempts",
+        "type":"counter"
+      },
+      "Upper Cargo Attempts": {
+        "code":"uca",
+        "title": "Upper Cargo Attempts",
         "type":"counter"
       },
       "Lower Cargo Scored": {
-        "code":"tl",
+        "code":"lcs",
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
-      "Upper Cargo Missed": {
-        "code":"tm",
-        "title": "Uppoer Cargo Missed",
+      "Upper Cargo Scored": {
+        "code":"ucs",
+        "title": "Upper Cargo Scored",
         "type":"counter"
       },
-      "Lower Cargo Missed": {
-        "code":"tn",
-        "title": "Lower Cargo Missed",
-        "type":"counter"
-      },
-      "Was Defended": {
-        "code":"wd",
-        "title": "Was Defended",
+      "Launchpad": {
+        "code":"lp",
+        "title": "Uses Launchpad?",
         "type":"bool"
       },
       "Cargo Loading": {
