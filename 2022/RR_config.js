@@ -180,6 +180,11 @@ var config_data = `
         },
         "defaultValue":"x"
       },
+      "Died": {
+        "code":"d",
+        "title": "Died",
+        "type":"bool"
+      },
       "Tipped": {
         "code":"to",
         "title": "Tipped Over",
