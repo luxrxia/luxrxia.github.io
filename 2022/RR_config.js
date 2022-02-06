@@ -57,12 +57,6 @@ var config_data = `
         "min":1,
         "max":99999
       },
-      "Auto Start Position": {
-        "code":"as",
-        "title": "Auto Start Position",
-        "type":"field_image",
-        "filename":"2022/field_image.png"
-      }
     },
     "auton": {
       "Preload": {
@@ -134,12 +128,6 @@ var config_data = `
         },
         "defaultValue":"x"
       },
-      "Shooting Spot": {
-        "code":"ss",
-        "title": "Shooting Spot",
-        "type":"field_image",
-        "filename":"2022/field_image.png"
-      }
     },
     "endgame": {
       "Climb": {
@@ -191,11 +179,6 @@ var config_data = `
           "x":"Not Observed"
         },
         "defaultValue":"x"
-      },
-      "Died": {
-        "code":"d",
-        "title": "Died",
-        "type":"bool"
       },
       "Tipped": {
         "code":"to",
