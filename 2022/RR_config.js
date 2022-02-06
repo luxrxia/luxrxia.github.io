@@ -22,7 +22,8 @@ var config_data = `
         "code":"l",
         "type":"level",
         "choices":{
-          "qm":"Qualifiers<br>",
+          "qm":"Quals<br>",
+          "ef":"Eighth-Final<br>",
           "qf":"Quarter-Final<br>",
           "sf":"Semi-Final<br>",
           "f":"Final"
