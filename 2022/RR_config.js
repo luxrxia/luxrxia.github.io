@@ -97,23 +97,23 @@ var config_data = `
         "title": "Cargo Gathered",
         "type":"counter"
       },
-      "Lower Cargo Attempts": {
-        "code":"lca",
+      "Lower Hub Attempts": {
+        "code":"lha",
         "title": "Lower Cargo Attempts",
         "type":"counter"
       },
-      "Upper Cargo Attempts": {
-        "code":"uca",
+      "Upper Hub Attempts": {
+        "code":"uha",
         "title": "Upper Cargo Attempts",
         "type":"counter"
       },
-      "Lower Cargo Scored": {
-        "code":"lcs",
+      "Lower Hub Scored": {
+        "code":"lhs",
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
-      "Upper Cargo Scored": {
-        "code":"ucs",
+      "Upper Hub Scored": {
+        "code":"uhs",
         "title": "Upper Cargo Scored",
         "type":"counter"
       },
