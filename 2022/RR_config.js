@@ -57,7 +57,7 @@ var config_data = `
         "min":1,
         "max":99999
       },
-      "Auto Start Position": {
+      "IGNORE THIS": {
         "code":"as",
         "title": "Auto Start Position",
         "type":"bool",
@@ -134,10 +134,10 @@ var config_data = `
         },
         "defaultValue":"x"
       },
-      "Shooting Spot": {
+      "IGNORE THIS": {
         "code":"ss",
         "title": "Shooting Spot",
-        "type":"field_image",
+        "type":"Bool",
         "filename":"2022/field_image.png"
       }
     },
