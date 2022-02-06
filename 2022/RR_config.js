@@ -58,7 +58,7 @@ var config_data = `
         "max":99999
       },
       "IGNORE THIS": {
-        "code":"i",
+        "code":"as",
         "title": "Auto Start Position",
         "type":"bool",
         "filename":"2022/field_image.png"
@@ -66,64 +66,64 @@ var config_data = `
     },
     "auton": {
       "Preload": {
-        "code":"Preload",
+        "code":"pl",
         "title": "Preload?",
         "type":"bool"
       },
       "Tarmac": {
-        "code":"Left Tarmac?",
+        "code":"lt",
         "title": "Left Tarmac??",
         "type":"bool"
       },
       "Upper Cargo Scored": {
-        "code":"Upper Cargo Scored",
-        "title": "Upper Cargo Scored",
+        "code":"ucs",
+        "title": "Uppoer Cargo Scored",
         "type":"counter"
       },
       "Lower Cargo Scored": {
-        "code":"Lower Cargo Scored",
+        "code":"lcs",
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
       "Human Player Shooting": {
-        "code":"Human Player Shooting?",
+        "code":"hps",
         "title": "Human Player Shooting?",
         "type":"bool"
       }
     },
     "teleop": {
       "Cargo Gathered ": {
-        "code":"Cargo Gathered",
+        "code":"cg",
         "title": "Cargo Gathered",
         "type":"counter"
       },
       "Lower Hub Attempts": {
-        "code":"Lower Cargo Attempts",
+        "code":"lha",
         "title": "Lower Cargo Attempts",
         "type":"counter"
       },
       "Upper Hub Attempts": {
-        "code":"Upper Cargo Attempts",
+        "code":"uha",
         "title": "Upper Cargo Attempts",
         "type":"counter"
       },
       "Lower Hub Scored": {
-        "code":"Lower Cargo Scored",
+        "code":"lhs",
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
       "Upper Hub Scored": {
-        "code":"Upper Cargo Scored",
+        "code":"uhs",
         "title": "Upper Cargo Scored",
         "type":"counter"
       },
       "Launchpad": {
-        "code":"Uses Launchpad?",
+        "code":"lp",
         "title": "Uses Launchpad?",
         "type":"bool"
       },
       "Cargo Loading": {
-        "code":"Pick up Cargo where",
+        "code":"cl",
         "title": "Pick up Cargo where",
         "type":"radio",
         "choices":{
@@ -143,7 +143,7 @@ var config_data = `
     },
     "endgame": {
       "Climb": {
-        "code":"Climb",
+        "code":"c",
         "title": "Climb",
         "type":"radio",
         "choices":{
@@ -157,19 +157,19 @@ var config_data = `
         "defaultValue":"x"
       },
       "Started Climb before Endgame": {
-        "code":"Started Climb before Endgame",
+        "code":"be",
         "title": "Started climb before EndGame",
         "type":"bool"
       },
       "Num of Robots Climbed": {
-        "code":"Num of Robots Climbed",
+        "code":"cn",
         "title": "# of alliance bots climbed",
         "type":"counter"
       }
     },
     "postmatch": {
       "Defense Rating": {
-        "code":"Defense Rating",
+        "code":"dr",
         "title": "Defense Rating",
         "type":"radio",
         "choices":{
@@ -181,17 +181,17 @@ var config_data = `
         "defaultValue":"x"
       },
       "Tipped": {
-        "code":"Tipped",
+        "code":"to",
         "title": "Tipped Over",
         "type":"bool"
       },
       "Card Foul": {
-        "code":"Card Foul",
+        "code":"cf",
         "title": "Yellow/Red Card",
         "type":"bool"
       },
       "Comments": {
-        "code":"Comments",
+        "code":"co",
         "title": "Comments",
         "type":"text",
         "size":15,
