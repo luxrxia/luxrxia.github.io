@@ -61,9 +61,7 @@ var config_data = `
         "title": "Auto Start Position",
         "type":"bool",
         "filename":"2022/field_image.png"
-      }
-    },
-    "auton": {
+      },
       "Preload": {
         "code":"pl",
         "title": "Preload?",
@@ -88,9 +86,7 @@ var config_data = `
         "code":"hps",
         "title": "Human Player Shooting?",
         "type":"bool"
-      }
-    },
-    "teleop": {
+      },
       "Cargo Gathered ": {
         "code":"cg",
         "title": "Cargo Gathered",
@@ -138,9 +134,7 @@ var config_data = `
         "title": "Shooting Spot",
         "type":"Bool",
         "filename":"2022/field_image.png"
-      }
-    },
-    "endgame": {
+      },
       "Climb": {
         "code":"c",
         "title": "Climb",
@@ -164,9 +158,7 @@ var config_data = `
         "code":"cn",
         "title": "# of alliance bots climbed",
         "type":"counter"
-      }
-    },
-    "postmatch": {
+      },
       "Defense Rating": {
         "code":"dr",
         "title": "Defense Rating",
