@@ -89,54 +89,6 @@ var config_data = `
         "title": "Human Player Shooting?",
         "type":"bool"
       }
-      "Cargo Gathered ": {
-        "code":"cg",
-        "title": "Cargo Gathered",
-        "type":"counter"
-      },
-      "Lower Hub Attempts": {
-        "code":"lha",
-        "title": "Lower Cargo Attempts",
-        "type":"counter"
-      },
-      "Upper Hub Attempts": {
-        "code":"uha",
-        "title": "Upper Cargo Attempts",
-        "type":"counter"
-      },
-      "Lower Hub Scored": {
-        "code":"lhs",
-        "title": "Lower Cargo Scored",
-        "type":"counter"
-      },
-      "Upper Hub Scored": {
-        "code":"uhs",
-        "title": "Upper Cargo Scored",
-        "type":"counter"
-      },
-      "Launchpad": {
-        "code":"lp",
-        "title": "Uses Launchpad?",
-        "type":"bool"
-      },
-      "Cargo Loading": {
-        "code":"cl",
-        "title": "Pick up Cargo where",
-        "type":"radio",
-        "choices":{
-          "t":"Terminal<br>",
-          "g":"Ground<br>",
-          "b":"Both<br>",
-          "x":"Not Attempted"
-        },
-        "defaultValue":"x"
-      },
-      "IGNORE THIS": {
-        "code":"ss",
-        "title": "Shooting Spot",
-        "type":"Bool",
-        "filename":"2022/field_image.png"
-      }
     },
     "teleop": {
       "Cargo Gathered ": {
