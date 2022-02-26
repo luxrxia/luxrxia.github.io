@@ -89,8 +89,6 @@ var config_data = `
         "title": "Human Player Shooting?",
         "type":"bool"
       }
-    },
-    "teleop": {
       "Cargo Gathered ": {
         "code":"cg",
         "title": "Cargo Gathered",
@@ -139,8 +137,6 @@ var config_data = `
         "type":"Bool",
         "filename":"2022/field_image.png"
       }
-    },
-    "endgame": {
       "Climb": {
         "code":"c",
         "title": "Climb",
@@ -165,8 +161,6 @@ var config_data = `
         "title": "# of alliance bots climbed",
         "type":"counter"
       }
-    },
-    "postmatch": {
       "Defense Rating": {
         "code":"dr",
         "title": "Defense Rating",
@@ -196,6 +190,6 @@ var config_data = `
         "size":15,
         "maxSize":50
       }
-    }
+    },
   }
 }`;
