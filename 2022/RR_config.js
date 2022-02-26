@@ -56,6 +56,12 @@ var config_data = `
         "min":1,
         "max":99999
       },
+      "IGNORE THIS": {
+        "code":"as",
+        "title": "Auto Start Position",
+        "type":"bool",
+        "filename":"2022/field_image.png"
+      }
     },
     "auton": {
       "Preload": {
