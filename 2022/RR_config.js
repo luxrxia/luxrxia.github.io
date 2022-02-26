@@ -62,6 +62,8 @@ var config_data = `
         "type":"bool",
         "filename":"2022/field_image.png"
       }
+    },
+    "auton": {
       "Preload": {
         "code":"pl",
         "title": "Preload?",
@@ -87,9 +89,6 @@ var config_data = `
         "title": "Human Player Shooting?",
         "type":"bool"
       }
-    },
-    "auton": {
-
     },
     "teleop": {
       "Cargo Gathered ": {
