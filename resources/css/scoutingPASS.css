@@ -15,14 +15,14 @@ html, body{
     background-color: black;
 }
 
-.field-image{
+/*.field-image{
     margin: 2vw;
 }
 
 .field-image-src{  
     background-position: center;
     border: 1px solid;
-}
+}*/
 
 .main-panel{
     display: none;
