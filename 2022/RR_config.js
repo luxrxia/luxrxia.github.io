@@ -1,7 +1,7 @@
 var config_data = `
 {
-  "title":"Scouting PASS 2022",
-  "page_title":"Rapid React",
+  "title":"Scouting PASS 2023",
+  "page_title":"Charged UP",
   "elements":{
     "prematch": {
       "Scouter Initials": {
@@ -14,7 +14,7 @@ var config_data = `
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"2022flwp",
+        "defaultValue":"2023flwp",
         "required":"true",
         "disabled":"true"
       },
